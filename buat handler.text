@@ -1,0 +1,31 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const config = require('./pengaturan.json')
+const prefix = config.prefix
+
+client.once('ready', () => {
+	console.log('hello world');
+    client.user.setActivity('type )help')
+});
+
+client.on('message', msg => {
+    if (!msg.author.bot || msg.content.startsWith(prefix))
+    const args = msg.content.slice(prefix.length).trim().split(/ +/);
+    const command = args.shift().toLowerCase();
+});
+
+client.login(config.token);
+
+if (command === 'help'){
+        const embed = new Discord.MessageEmbed()
+            .setColor('RANDOM')
+            .setTitle('Commands:')
+            .setAuthor('Nubiasistant')
+            .setDescription('1. `config` for all list of server settings \n' +
+            '2. `uconfig` for all list of user config \n' +
+            '3. `tool` for many tools')
+        msg.channel.send(embed)
+    }
+
+const args = msg.content.slice(prefix.length).trim().split(/ +/);
+    const commandName = args.shift().toLowerCase();
