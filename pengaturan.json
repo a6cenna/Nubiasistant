@@ -1,4 +1,5 @@
 {
     "prefix": ")",
-    "token": "ODA5MjMwMjc3NDczMjA2Mjcy.YCSEbA.5Bet6BqbDruIApw08-uymN2x9jM"
+    "token": "ODA5MjMwMjc3NDczMjA2Mjcy.YCSEbA.5Bet6BqbDruIApw08-uymN2x9jM",
+    "mongodb_server": "mongodb+srv://Thoriz:baik4biumi@nubiasistant.ulodo.mongodb.net/NubiasistantDB?retryWrites=true&w=majority"
 }

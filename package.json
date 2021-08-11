@@ -9,6 +9,7 @@
   "author": "ThoriZ",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.3",
+    "mongoose": "^5.13.6"
   }
 }
