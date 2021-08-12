@@ -21,7 +21,7 @@ module.exports = {
             console.log(err)
         }
         const amount = args[0];
-        if (amount % 1 != 0 || amound <= 0) return msg.channel.send('Hey, kamu tidak bisa mendepositkan itu');
+        if (amount % 1 != 0 || amount <= 0) return msg.channel.send('Hey, kamu tidak bisa mendepositkan itu');
         try {
             if (amount > profileData.bits) return msg.channel.send("Lel kau tidak bisa menipuku, uangmu tidak sebanyak itu");
             await profileModel.findOneAndUpdate({
