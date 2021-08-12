@@ -33,7 +33,7 @@ module.exports = {
                 },
             }
             )
-            return msg.rep
+            
         } catch (error) {
             console.log(error)
         }
